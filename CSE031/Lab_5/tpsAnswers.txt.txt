@@ -1,0 +1,23 @@
+tpsAnswers.txt
+
+TPS 1
+1. MARS stands for MIPS Assembler and Runtime Simulator
+5a. To load an assembly file, you need to click the open button and select from your computer
+5b. To compile, we use the compile button
+5c. To run, we use the run button that lookes like a play button
+5d. You cannot run a program before assembling
+5e. To run the assembled program line by line, we need to press the songle-step button instead of the run button
+5f. Tu run the program after it finishes running, we need to press the rewind button to reset it
+
+TPS 2
+1. .data seems to be a part of the code where we can declare variables with different names
+.word is to be able to read a number
+.text allows us to write the equivalent of equations in c
+2. line 10 is the beggining of a loop that does the fibonacci sequence
+3. It restarts the loop iif the branch is not equal to the set number of the loop
+4. To set a brakpoint, you need to check the side of a line address
+5. To continue executing, we simply click the run button again
+6. To find out the content of a register, we just look at the bottom and the side tables
+To modify the contents of a register while running, we can either set a breakpoint or run step by step
+7. it is stored at 0x10010000
+8. syscall executes the function at value $v0, we first set the value of v0 and then we use syscall, various numbers have their own set function there

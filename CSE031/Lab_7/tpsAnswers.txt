@@ -1,0 +1,12 @@
+TPS 1
+4. This line stores the value of the sum of n and m so we can print later.
+5. We could use j if the label is correct
+6. The return value is stated in line 14 and is stores in $a0, this holds m + n which makes sense because $a0 is the value printed.
+7. The code has an error when trying to run it as it is
+8. The address keeps needing to be $a0 due to the syscall to printo the result
+10. The output of the program is 15
+11. We should use jal.
+
+TPS 2
+1. The output should be 35
+5. We need to move the return address to solve this problem.

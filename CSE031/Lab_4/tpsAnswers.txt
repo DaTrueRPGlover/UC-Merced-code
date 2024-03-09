@@ -1,0 +1,15 @@
+TPS 1
+1: It should print the number 2 in the first printf and it should print the hex value of A in the second print
+2: I expect it to now print the hex value of A again, since four_int was changed
+4: I am impressed by the results, I expected it to just be another hex value
+5: a:Two arrays were allocated by the program
+b:Yes, they are pointing to the same place
+c:Printing their address proves that they point to the same place
+6: four_ints goes up by 4 hex values , it means that int need 4 bytes 
+8: four_c only goes up by one hex value, char needs only 1 byte to be stored
+10: although the first value of four_int was overwritten, the others were not because writing 4 values for four_c is the equivalen of 1 int in memory.
+
+TPS 2
+1: Line 8 creates space for the 2d array, it is making space for the lines of the 2d array
+2: We would need to use two separate [] notations.
+4: We need the size or else we cannot tell the pint function how many variables in each column have to be printed

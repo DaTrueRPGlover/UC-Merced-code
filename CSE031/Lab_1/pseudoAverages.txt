@@ -1,0 +1,9 @@
+ask user for input numbers
+
+use floor division for each digit
+
+add each digit and use modulo to know if it is even or odd
+
+if a number's digits are even, add them up and divide by the quantity of numbers that are even
+
+if odd, do the same but with odd numbers

@@ -1,0 +1,14 @@
+tpsAnswers.txt
+
+TPS 1
+1. The text segment has a first address of 0x00400000 and the data segment has a first address of 0x10010000
+2. Some of the commands like subi do not appear in basic and the ones there do not show anything like functions or loops.
+3. There is a 4 byte difference between an address and the next one
+4. There are 8 different columns for each address
+5. Every column seems to represent 4 bits
+6. To create a new variable named m you need to add it to .data and use .word to read the integer, followed by the value 20 to set it to 20
+8. To initialize a srting, we do somewhat the same process as with m but we use .acsiiz followed by "" with our string inside it
+9. It is addressed at 0x10010008 - 0x10010013
+10. The way they are saved is character by character in hex value and seems to go backwards, it is different from what I expected in lab 4.
+12. la $t3, n loads the adress at t3 with the variable we had created before which is n
+

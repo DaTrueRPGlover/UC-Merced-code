@@ -1,0 +1,35 @@
+TPS 1
+1. Fernando Campos Chavez, Henry Rodas, Arashdeep Mehroke
+2. https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/
+https://ubuntu.com/tutorials/command-line-for-beginners
+https://opensource.com/article/21/8/linux-terminal
+
+TPS 2
+1. To open the terminal in my computer, I can search for it with the search bar or I can pin it to the task bar and use it that way. To open more than one terminal I have to right click my terminal program and open a new one. Sometimes when working with terminals, there can be some quick changes you can do with two or more terminals open.
+2. To be able to know what the directory contains, you need to use the command "ls".
+3. To go to my desktop folder I have to first do a cd ~ and then a cd C:\Users\ferna\OneDrive\Escritorio
+4. To create a folder I need to use the command "mkdir" followed by the name I want to give to that folder
+
+TPS 3
+1. https://www.ubuntupit.com/how-to-install-and-use-gcc-compiler-on-linux-system/
+https://www.educba.com/gcc-command-in-linux/
+3. gcc "name.c" -o "name.exe"
+4. To know that the program has compiled successfully, you should not get any kind of error when using the gcc command
+5. -c makes GCC compile into a .o object file. Without it, it will make the code a complete executable program
+6. -g is for debugging
+7. To change the name you would have to use the command "mv"
+8. It created an OUT File
+9. ./a.out
+
+TPS 4
+ask user for input numbers
+
+use floor division for each digit
+
+add each digit and use modulo to know if it is even or odd
+
+if a number's digits are even, add them up and divide by the quantity of numbers that are even
+
+if odd, do the same but with odd numbers
+
+ 

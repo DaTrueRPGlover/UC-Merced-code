@@ -1,0 +1,9 @@
+1. The line that creates the seg fault is line 22
+2. To fix it, we need to add an "&" when using scanf for input.
+3. The value of sum is a double and that does not work 
+4. We change the value taken to be a double pointer
+
+1. The output does not act as expected, there are extra letters and symbols appended
+2. The input is saved somewhere that should not be and it prints it when it is not asked to
+3. The output is not expected, the letters start to bleed and the idea is that the char arrays are declared too close to each other.
+

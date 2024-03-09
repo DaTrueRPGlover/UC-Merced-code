@@ -1,0 +1,19 @@
+TPS 1
+1. Fernando Campos Chavez, Henry Rodas, Arashdeep Mehroke
+2. https://www.gdbtutorial.com/tutorial/how-use-gdb, https://www.bitdegree.org/learn/gdb-debugger, https://www.thegeekstuff.com/2010/03/debug-c-program-using-gdb/
+
+TPS 2
+1. To compile it you need to use -g instead of -o
+2. To compile using gdb you need to type gdb followed by the name of the file
+3. To run the program, you need to type r and enter
+4. Breakpoints are points in which the code will stop as indicated so debugging can occur. To set a breakpoint, the command b is used
+5. To run line by line, we use command s
+6. You can see the values of the variables with the command p var
+7. To run the program until it ends, you use command f
+8. You exit gdb by using command "quit"
+
+TPS 3
+1. 4 variables were declared and 2 are pointers which are integer pointers
+2. The values of x, y, and arr[0] are random garbage numbers. I think this happens since they are pointers that go somewhere that already has data and we do not even know where they go.
+3. To prevent the variables from having random numbers, we need to set a value to them.
+8. The result does make sense since it shows that arr points at the first value of the array, from then you are able to go forward to the rest of the elements.

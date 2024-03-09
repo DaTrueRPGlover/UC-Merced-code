@@ -1,0 +1,10 @@
+TPS 1
+5. The program has no need to use .data to store the number, it can simply be stored in a register.
+
+TPS 2
+1. The program should return a 29
+4. We should use $v0
+5. it is returned in $a0 and we need it so we can save in a temp
+7. 3 integers are able to be stored
+10. We need to save it into the stack because it will loop again and make us lose that initial value.
+12. It will make our temp values disappear

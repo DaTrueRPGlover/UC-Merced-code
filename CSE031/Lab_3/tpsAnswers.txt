@@ -1,0 +1,11 @@
+TPS 1
+1. Static: Stores global variable storage. Stack: Stores local variable storage. Heap: stores anything but needs to be deallocated by the user.
+2. 3 variables are declared. 2 of them are pointers (one points to int, other is a pointer to pointer). These variables are stored in the stack. The value of the pointer is stored on the heap.
+3. int num, *ptr, **handle -> all located on the stack
+ptr = (int *)malloc(2 * sizeof(int)); -> located in the heap
+handle = (int **)malloc(1 * sizeof(int *)); -> located in the heap
+
+TPS 2
+1. It is declaring a struct that seems to work for a linked list
+3. The values inside head are created right next to each other, alongside the next pointer node. It seems that head is stored not on the same place where the values inside it are stored.
+

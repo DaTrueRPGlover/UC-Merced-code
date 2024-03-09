@@ -1,0 +1,58 @@
+Enter the number of assignments (between 1 and 25): 5
+Enter score: 11
+Enter score: 22
+Enter score: 33
+Enter score: 44
+Enter score: 55
+Original scores: 11 22 33 44 55 
+Sorted scores (in descending order): 55 44 33 22 11 
+Enter the number of (lowest) scores to drop: 3
+Average (rounded down) with dropped scores removed: 49
+-- program is finished running --
+--------------------------------------------------------------------------------------------
+Enter the number of assignments (between 1 and 25): 10
+Enter score: 14
+Enter score: 53
+Enter score: 6798568
+Enter score: 43
+Enter score: 3212
+Enter score: 765
+Enter score: 234234
+Enter score: 6
+Enter score: 1
+Enter score: 23124
+Original scores: 14 53 6798568 43 3212 765 234234 6 1 23124 
+Sorted scores (in descending order): 6798568 234234 23124 3212 765 53 43 14 6 1 
+Enter the number of (lowest) scores to drop: 6
+Average (rounded down) with dropped scores removed: 1764784
+-- program is finished running --
+--------------------------------------------------------------------------------------------
+Enter the number of assignments (between 1 and 25): 7
+Enter score: 0
+Enter score: 0
+Enter score: 0
+Enter score: 0
+Enter score: 0
+Enter score: 0
+Enter score: 0
+Original scores: 0 0 0 0 0 0 0 
+Sorted scores (in descending order): 0 0 0 0 0 0 0 
+Enter the number of (lowest) scores to drop: 0
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+-------------------------------------------------------------------------------------------
+Enter the number of assignments (between 1 and 25): 1
+Enter score: 235346
+Original scores: 235346 
+Sorted scores (in descending order): 235346 
+Enter the number of (lowest) scores to drop: 1
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+-------------------------------------------------------------------------------------------
+Enter the number of assignments (between 1 and 25): 1
+Enter score: 1
+Original scores: 1 
+Sorted scores (in descending order): 1 
+Enter the number of (lowest) scores to drop: 2
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
